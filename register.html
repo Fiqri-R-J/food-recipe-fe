@@ -29,8 +29,18 @@
       <!-- right side -->
       <div class="col-6 form-login">
         <div>
-          <h1>Welcome</h1>
-          <p>Log in into your exiting account</p>
+          <h1>Let’s Get Started !</h1>
+          <p>Create new account to access all features</p>
+
+          <div class="mb-3 form-width">
+            <label for="name-input" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="name"
+              placeholder="Name"
+            />
+          </div>
 
           <div class="mb-3 form-width">
             <label for="email-input" class="form-label">E-mail</label>
@@ -43,12 +53,32 @@
           </div>
 
           <div class="mb-3 form-width">
-            <label for="password-input" class="form-label">Password</label>
+            <label for="phone-input" class="form-label">Phone Number</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="phone"
+              placeholder="08xxxxxxxx"
+            />
+          </div>
+
+          <div class="mb-3 form-width">
+            <label for="password-input" class="form-label">Create New Password</label>
             <input
               type="password"
               class="form-control form-control-lg"
               id="password-input"
-              placeholder="Enter your password"
+              placeholder="Create New Password"
+            />
+          </div>
+
+          <div class="mb-3 form-width">
+            <label for="password-input" class="form-label">New Password</label>
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              id="password-input"
+              placeholder="New password"
             />
           </div>
 
@@ -65,16 +95,14 @@
           </div>
 
           <div class="d-grid">
-            <a  type="button" class="btn btn-primary btn-lg btn-warning" href="index.html">
-              Log in
-            </a>
+            <button type="button" class="btn btn-primary btn-lg btn-warning">
+              Register Account
+            </button>
           </div>
 
-          <a class="forgot" href="forgot.html">Forgot Password ?</a>
-
           <p class="dont-have-account">
-            Don’t have an account?
-            <a class="sign-up" href="register.html">Sign Up</a>
+            Already have account? 
+            <a class="login" href="login.html">Log in Here</a>
           </p>
         </div>
       </div>
