@@ -141,22 +141,8 @@ body {
     font-weight: 500;
     font-size: 38px;
     line-height: 80px;
-    color: #3f3a3a;
+    color: #2E266F;
     position: relative;
-    z-index: 1;
-    margin-bottom: 100px;
-    border-left: 15px solid #efc81a;
-    padding-left: 20px;
-  }
-  
-  #new-recipe .background-overlay {
-    height: 500px;
-    background-color: #efc81a;
-    width: 350px;
-    margin-top: -50px;
-    position: absolute;
-    z-index: 0;
-    border-radius: 0px 10px 0px 0px;
   }
   
   #new-recipe .main-image {
@@ -247,7 +233,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 500px;
     text-align: center;
     position: relative;
   }
